@@ -15,6 +15,7 @@
 		90A7D6F11D0674C500520C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A7D6EF1D0674C500520C04 /* LaunchScreen.storyboard */; };
 		90A7D6FC1D0674C500520C04 /* WHYFoudationCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A7D6FB1D0674C500520C04 /* WHYFoudationCategoryUITests.m */; };
 		90A7D7091D06751700520C04 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A7D7081D06751700520C04 /* NSString+Regex.m */; };
+		90A7D70C1D06761F00520C04 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A7D70B1D06761F00520C04 /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		90A7D6FD1D0674C500520C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90A7D7071D06751700520C04 /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
 		90A7D7081D06751700520C04 /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		90A7D70A1D06761F00520C04 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		90A7D70B1D06761F00520C04 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 			children = (
 				90A7D7071D06751700520C04 /* NSString+Regex.h */,
 				90A7D7081D06751700520C04 /* NSString+Regex.m */,
+				90A7D70A1D06761F00520C04 /* UIColor+Extension.h */,
+				90A7D70B1D06761F00520C04 /* UIColor+Extension.m */,
 			);
 			name = catetory;
 			path = ../../catetory;
@@ -227,6 +232,7 @@
 			files = (
 				90A7D6E91D0674C500520C04 /* ViewController.m in Sources */,
 				90A7D7091D06751700520C04 /* NSString+Regex.m in Sources */,
+				90A7D70C1D06761F00520C04 /* UIColor+Extension.m in Sources */,
 				90A7D6E61D0674C500520C04 /* AppDelegate.m in Sources */,
 				90A7D6E31D0674C500520C04 /* main.m in Sources */,
 			);
