@@ -10,6 +10,11 @@
 
 @interface NSString (Regex)
 
+/// 检查是否是表情
+///
+/// @return 是否是表情
+- (BOOL)isEmoji;
+
 /// 检查是否是手机号
 ///
 /// @return 是否是手机号

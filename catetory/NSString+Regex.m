@@ -10,6 +10,17 @@
 
 @implementation NSString (Regex)
 
+- (BOOL)isEmoji {
+    
+    NSString *emoji = @"[^\\u0020-\\u007E\\u00A0-\\u00BE\\u2E80-\\uA4CF\\uF900-\\uFAFF\\uFE30-\\uFE4F\\uFF00-\\uFFEF\\u0080-\\u009F\\u2000-\\u201f\r\n]*$";
+    
+    NSPredicate *regexEmoji = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emoji];
+    
+    if ([regexEmoji evaluateWithObject:self]) return YES;
+    
+    return NO;
+}
+
 - (BOOL)isHans {
     
     NSString *hans = @"^[\\u4e00-\\u9fa5]*$";
